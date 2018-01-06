@@ -1,0 +1,32 @@
+{
+  "name": "hyperapp-boilerplate",
+  "version": "1.0.0",
+  "description": "hyperapp boilerplate",
+  "keywords": [
+    "hyperapp",
+    "javascript",
+    "boilerplate",
+    "framework"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html -d build --public-url ./"
+  },
+  "author": "Pedro Gomes <pedrouid@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "hyperapp": "^1.0.1",
+    "parcel-bundler": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-h-jsx": "^1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.14.0",
+    "eslint-config-babel": "^7.0.2",
+    "eslint-plugin-flowtype": "^2.40.1"
+  }
+}
