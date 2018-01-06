@@ -1,6 +1,6 @@
 # hyperapp-boilerplate
 
-Boilerplate for developing a static web app using Hyperapp.js built with Parcel.js
+Boilerplate for developing a static web app using [Hyperapp](https://github.com/hyperapp/hyperapp) built with [Parcel](https://github.com/parcel-bundler/parcel)
 
 `npm start` to develop on localhost
 
