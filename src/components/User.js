@@ -1,4 +1,4 @@
-import { h, app } from 'hyperapp'; // eslint-disable-line
+import { h } from 'hyperapp'; // eslint-disable-line
 import { capitalize, getAge } from '../helpers/utilities';
 
 const User = ({ user }) => {

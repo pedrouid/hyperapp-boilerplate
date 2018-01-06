@@ -1,30 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  font-size: 16px;
-  color: #222222;
-  overflow-y: auto;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  outline: none;
-}
-
 .wrapper {
   width: 100%;
   height: 100%;
@@ -83,6 +56,7 @@ a {
 }
 
 .user-name {
+  font-size: 20px;
   width: 50%;
 }
 
@@ -91,11 +65,11 @@ a {
 }
 
 .male {
-  color: blue;
+  color: #00bdff;
 }
 
 .female {
-  color: pink;
+  color: #ff9be2;
 }
 
 .user-age {
@@ -118,48 +92,4 @@ a {
   text-align: center;
   padding: 50px 0;
   opacity: 0.5;
-}
-
-/*
-  LOADING SPINNER ANIMATION
-  by Tobias Ahlin @tobiasahlin
-
-  http://tobiasahlin.com/spinkit/
- */
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  background-color: #222222;
-
-  margin: 100px auto;
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
-}
-
-@-webkit-keyframes sk-rotateplane {
-  0% {
-    -webkit-transform: perspective(120px);
-  }
-  50% {
-    -webkit-transform: perspective(120px) rotateY(180deg);
-  }
-  100% {
-    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
-  }
-}
-
-@keyframes sk-rotateplane {
-  0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-  }
-  50% {
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-  }
-  100% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-  }
 }

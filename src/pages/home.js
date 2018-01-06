@@ -1,6 +1,7 @@
-import { h, app } from 'hyperapp'; // eslint-disable-line
+import { h } from 'hyperapp'; // eslint-disable-line
 import { apiGetUsers } from '../helpers/api';
 import User from '../components/User'; // eslint-disable-line
+import Spinner from '../components/Spinner'; // eslint-disable-line
 import '../styles/home.css';
 
 const home = (state, actions) => {
